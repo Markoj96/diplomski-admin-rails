@@ -1,0 +1,66 @@
+$am-theme-primary: #3B495B;
+$am-theme-accent: #7D89AC;
+
+
+@import 'activeadmin_addons/all';
+@import 'activeadmin_addons/material';
+
+@import "active_admin/mixins";
+@import "active_material";
+
+.header#header {
+  color: #4C5572
+}
+
+//.site_title {
+//  font-weight: 600;
+//  font-size: 30px;
+//}
+
+.toggle-bool-switches-container {
+  text-align: left;
+}
+
+select {
+  max-width: 100% !important;
+}
+
+.boolean > .select2-container {
+  width: 100% !important;
+}
+
+.select_and_search .select2-container {
+  margin-right: 5px;
+}
+
+.no-resources {
+  display: flex;
+  padding-left: 15px;
+  padding-bottom: 10px !important;
+  color: rgba(0, 0, 0, 0.57);
+}
+
+.status_tag {
+  &.yes {
+    background-color: green;
+  }
+
+  &.no {
+    background-color: firebrick;
+  }
+}
+
+.scope.selected a {
+  background-color: initial;
+  color: #1974D2;
+}
+
+.field-hint {
+  margin-left: 15px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.footer {
+  display: none !important;
+}

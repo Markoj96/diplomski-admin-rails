@@ -12,9 +12,8 @@ ActiveAdmin.register Vehicle do
   index do
     selectable_column
     id_column
-    column :owned
-    column :model
     column :user
+    column :model
   end
 
   show do

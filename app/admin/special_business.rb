@@ -10,8 +10,6 @@ ActiveAdmin.register SpecialBusiness do
     column :owned
     column :user
     column :name
-    column :description
-    column :price
   end
 
   show do
